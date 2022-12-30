@@ -1,6 +1,7 @@
 .coin-container {
     display: flex;
     justify-content: center;
+    
   }
   
   .coin-row {
@@ -34,6 +35,7 @@
   
   .coin-symbol {
     text-transform: uppercase;
+
   }
   
   .coin-data {
@@ -45,18 +47,23 @@
   
   .coin-price {
     width: 110px;
-  }
+    padding-right: 3%;
   
+  }
+/*   
   .coin-volume {
     width: 155px;
-  }
+    padding-right: 3%;
+  } */
   
   .coin-marketcap {
     width: 230px;
+   
   }
   
   .coin-percent {
     width: 100px;
+    padding-left: 8%;
   }
   
   .red {
