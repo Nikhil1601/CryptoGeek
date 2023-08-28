@@ -7,7 +7,7 @@ const News = () => {
   return (
     <div>
       <Navbar />
-      <Newsapp />
+      <Newsapp/>
       <Footer />
     </div>
   )

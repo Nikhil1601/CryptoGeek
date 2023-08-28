@@ -21,10 +21,10 @@ const Footer = () => {
                 <div className='col'>
                     <h5>Developer</h5>
                     <span className='bar'> </span>
-                    <p>Nikhl gautam</p>
+                    <a href='https://www.linkedin.com/in/nikhil-gautam16/'>Nikhl gautam</a>
                     <a href='https://www.facebook.com/profile.php?id=100011421061952'><FaFacebook className='icon' /></a>
 
-                    <a href='www.linkedin.com/in/nikhil-gautam16'><FaLinkedin className='icon' /></a>
+                    <a href='https://www.linkedin.com/in/nikhil-gautam16/'><FaLinkedin className='icon' /></a>
                     <a href='https://github.com/Nikhil1601'><FaGithub className='icon' /></a>
                 </div>
 
