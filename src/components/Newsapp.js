@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 const Newsapp = () => {
   const [news, setnews] = useState([])
   useEffect(() => {
-    axios.get('https://newsapi.org/v2/everything?q=crypto&Blockchain&from=2023-07-28&sortBy=publishedAt&apiKey=8f7cd693dbfa4f7597ebdf31da76a6b7')
+    axios.get('https://newsapi.org/v2/everything?q=crypto&Blockchain&from=2023-09-28&sortBy=publishedAt&apiKey=8f7cd693dbfa4f7597ebdf31da76a6b7')
       .then((res) => {
         console.log(res.data.articles);
         setnews(res.data.articles)
